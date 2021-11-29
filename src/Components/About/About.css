@@ -11,6 +11,9 @@
     padding-top: auto;
     padding-bottom: auto;
 }
+.scroll-animation{
+    height: 100%;
+}
 .button-special{
     border:solid 2px;
     border-color: white;
@@ -26,11 +29,13 @@
     transform: scale(1.1);
 }
 .row-wrapper{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(auto-fill,minmax(350px,1fr));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 75%;
+    width: 100%;
 }
 .right-row-wrapper{
     display: flex;

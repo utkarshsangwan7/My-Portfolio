@@ -5,15 +5,16 @@ import '../scroll';
 const Contact = ()=>{
     return(
         <div className='contact-wrapper show-on-scroll'>
-            <h1>CONTACT</h1>
-            <hr></hr>
-            <div>
-                <h2>Ph. No - +91 7428328862</h2>
-                <h2>utkarshsangwan7@gmail.com</h2>
-                <h2>utkarshsangwan00@gmail.com</h2>
-                <h2>usangwan_be19@thapar.edu</h2>
+                <div className="card-header">
+                    Contact
+                </div>
+                <div className="card-body">
+                    <h5 className="card-title">Ph. No - +91 7428328862</h5>
+                    <h5 className="card-title">utkarshsangwan7@gmail.com</h5>
+                    <h5 className="card-title">utkarshsangwan00@gmail.com</h5>
+                    <h5 className="card-title">usangwan_be19@thapar.edu</h5>
+                </div>
             </div>
-        </div>
     );
 }
 
